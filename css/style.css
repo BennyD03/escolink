@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one .active {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+   border-bottom: 10px;
+
+}
+.one ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.3s;
+}
+.one ul a {
+    color: white !important;
+}
+.container-two {
+    height: 40rem;
+    background:linear-gradient(90deg,green,rgb(100, 205, 100),green)
+}
+.gallery{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1%;
+}
+.container-six {
+    text-align: center;
+    padding: 2%;
+}
+.container-seven {
+    height: 10%;
+}
+.desc {
+    text-align: center;
+    font-style: italic;
+}
+@keyframes example {
+    from {color: yellow;}
+    to {color: red;}
+}
+.six {
+    text-align: center;
+}
+.sevenone .seven {
+    text-align: center;
+    background: url(../images/Empire_State_Building_15_Dec_2005.jpg), rgba(175, 95, 95, 0.242);
+    opacity:3 ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    
+}
+.transbox {
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+}
